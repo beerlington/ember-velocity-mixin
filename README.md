@@ -23,7 +23,7 @@ export default Ember.Component.extend(VelocityMixin, {
 ```javascript
 import VelocityMixin from 'ember-velocity-mixin/main';
 
-export default Ember.Component.extend({
+export default Ember.Component.extend(VelocityMixin, {
   actions: {
     collapse: function() {
       var _this = this;
